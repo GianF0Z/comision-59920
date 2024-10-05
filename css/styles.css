@@ -1,0 +1,632 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background-color: #00A3FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo-container {
+    padding-left: 1.875rem;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 1.875rem;
+    padding-right: 1.875rem;
+    align-items: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/img/imgPrincipal.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+}
+
+.banner-text p {
+    font-size: 1.5rem;
+}
+
+
+.container-cabanas {
+    width: 100%;
+    height: 400px;
+    background-color: #FFF6F0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.card-container {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container h4{
+    font-size: 10px;
+    color: black;
+}
+
+.section-caba h3 {
+    font-size: 25px;
+    color: #D2A48A;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF6F0;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+.info-section{
+    width: 100%;
+    height: 400px;
+    margin: 10px 0; 
+    background-image: url("../assets/img/imgBannerDos.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.info-div {
+    background-color: #00A3FF;
+    margin-right: 30px;
+    color: #fff;
+
+}
+
+
+.info-div h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 40px 20px 20px 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+}
+
+.info-div p{
+    margin-bottom: 20px;
+    padding: 40px 20px 20px 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #D2A48A;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 40px;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+.galeria-container {
+    width: 100%;
+    height: 400px;
+    background-color: #FFF6F0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.container-art{
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+.container-img-ga {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.container-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+.info-section-two{
+    width: 100%;
+    height: 400px;
+    margin: 10px 0; 
+    background-image: url("../assets/img/imgBannerDos.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.info-div-two {
+    background-color: #00A3FF;
+    margin-left: 30px;
+    color: #fff;
+
+}
+
+
+.info-div-two h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 40px 20px 20px 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: left;
+}
+
+.info-div-two p{
+    margin-bottom: 20px;
+    padding: 40px 20px 20px 40px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+footer {
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* PAG 2 */
+
+.banner-dos{
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/img/bannerPag2.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-dos-text h2 {
+    font-size: 3rem;
+}
+
+/* Estilos para la sección de información */
+.info-pagDos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 40px 0;
+    justify-content: center;
+}
+.info-blockDos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px; 
+    position: relative;
+}
+.info-blockDos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-textDos {
+    height: 250px;
+    position: absolute;
+    background-color: rgba(0, 123, 255, 0.8); 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.info-textDos h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.info-textDos p {
+    margin-bottom: 0;
+}
+.article1{
+    left: 250px;
+}
+.article2{
+    right: 250px;
+}
+.div1{
+    transform: translate(-100%, -20%); 
+}
+.div2{
+    transform: translate(100%, -20%); 
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* PAG 3 */
+
+.banner-tres{
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/img/bannerPag3.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-dos-tres h2 {
+    font-size: 3rem;
+}
+
+.info-pagTres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 40px 0;
+    justify-content: center;
+    background-color: #FFF6F0;
+}
+.info-blockTres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px; 
+    position: relative;
+}
+.info-blockTres img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-textTres {
+    height: 250px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.info-textTres h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.info-textTres p {
+    margin-bottom: 0;
+}
+
+.art1{
+    right: 350px;
+}
+.v1{
+    transform: translate(150%, -20%); 
+}
+
+.art2{
+    left: 350px;
+}
+.v2{
+    transform: translate(-150%, 20%); 
+}
+.s2{
+    background-color: #f1faff;
+}
+
+/* La sección de servicios */
+.services {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+}
+
+.services h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 30px;
+    justify-items: center; 
+}
+
+  /* Cada ítem de servicio */
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+  /* Media queries para pantallas más chica */
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* PAG 4 */
+
+.banner-cuatro{
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/img/bannerPag4.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-cuatro-text h2 {
+    font-size: 48px;
+}
+
+.banner-cuatro-text p{
+    font-size: 36px;
+}
+
+.banner-cuatro-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, 60%); 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Sección de atracciones */
+.atracciones {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px;
+    background-color: #e6f7ff;
+}
+
+.atracciones-item {
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.atracciones-item img {
+    width: 50%; 
+    object-fit: cover; 
+}
+
+.atracciones-text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.atracciones-text h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.atracciones-text h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.atracciones-text p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* PAG 5 */
+
+.banner-cinco{
+    width: 100%;
+    height: 300px;
+    background-color: #fad4c1 ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-cinco-text{
+    font-size: 48px;
+}
+
+/* Sección Mapa */
+.mapa-seccion {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #FFF;
+}
+
+.mapa-seccion iframe, .mapa-seccion img {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*  Sección Información (Contacto y Horario) */
+.contact-seccion {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #EAF5FF;
+    flex-wrap: wrap; 
+}
+
+.contact-card {
+    background-color: #FFF7F0;
+    width: 300px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+} 
