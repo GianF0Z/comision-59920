@@ -1,0 +1,22 @@
+@media (max-width: 320px) {
+    .navbar li a {
+        font-size: 14px;
+    }
+
+    .banner h2 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .info-div h3, .info-div-two h3 {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 0.3rem 1rem;
+    }
+}

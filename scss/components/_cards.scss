@@ -1,0 +1,24 @@
+.card-container {
+    @extend %text-center;
+    width: 250px;
+    color: color(text);
+
+    h4 {
+        @include responsive-font(10px);
+        color: black;
+    }
+}
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: $card-border-radius;
+    margin-bottom: 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

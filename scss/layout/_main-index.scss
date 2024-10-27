@@ -1,0 +1,36 @@
+.container {
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding: 0 $container-padding;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/img/imgPrincipal.jpg");
+    background-size: cover;
+    background-position: center;
+    @include flex-center;
+    color: $text-color;
+    text-align: center;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.info-section {
+    width: 100%;
+    height: 400px;
+    background-image: url("../assets/img/imgBannerDos.png");
+    background-size: cover;
+    background-position: center;
+    @include flex-center;
+    justify-content: right;
+    color: $text-color;
+}
+
